@@ -1,7 +1,11 @@
+"""
+The setup.py file is an essential component in Python projects, particularly when you intend to distribute your code as a package or library.
+"""
+
 from setuptools import find_packages,setup
 from typing import List 
 
-HYPEN_E_DOT = '-e .'
+HYPEN_E_DOT = '-e .' 
 
 def get_requirements(file_path:str)->List[str]:
     """This function will return list of requirements"""
