@@ -6,4 +6,5 @@ scikit-learn
 catboost
 xgboost
 dill
+Flask
 #-e .   #Adding -e . in the requirements.txt file is a way to specify that the package should be installed in "editable" mode.
